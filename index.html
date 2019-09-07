@@ -1,0 +1,390 @@
+<!doctype html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>THE GOAL OF FINANCIAL MANAGEMENT</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <!-- <link rel="stylesheet" href="css/theme/black.css"> -->
+    <link rel="stylesheet" href="css/theme/league.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+	<section>
+	  <section data-background-image="./city_skyline.jpg">
+	    <h2>THE GOAL OF FINANCIAL MANAGEMENT</h2>
+	    <br>
+	    <br>
+	    <br>
+	    <br>
+	    <br>
+	    <br>
+	  </section>
+	  <section>
+	    <h2>THE GOAL OF FINANCIAL MANAGEMENT</h2>
+	    <br>
+	    <p> MATT BRIGIDA </p>
+	    <p> Associate Professor of Finance (SUNY Polytechnic Institute) & Financial Education Advisor, Milken Institute Center for Financial Markets</p>
+	  </section>
+	</section>
+
+<section data-markdown>
+	<textarea data-template>
+## The Goal of Financial Management
+
+`The goal of financial management is to maximize shareholder wealth.` For public companies this is the stock price, and for private companies this is the market value of the owners' equity. 
+
+-  We'll discuss the drawbacks of other potential measures.
+
+-  We'll also explain why this measure makes sense, and why it limits excessive risk-taking. 
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+## Alternative Measures
+
+Some might offer goals such as `maximize cash flows` or `maximize profit` for financial management. What problems arise from these goals? 
+
+-  Relatively minor problems relate to how to measure the cash flows---should they be the average cash flow over some period (and what period)?
+
+-  In other words, these measures are *ambiguous*. 
+
+-  `Maximizing shoreholder wealth` is not ambiguous.  There is one unique share price.  
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+## The Larger Problem
+
+The larger problem with measures such as `maximizing profit` or `cash flows` is that the they lack *balance*. In finance and investments, risk is balanced with reward.  You can't have one without the other. And so you can't consider the reward without also considering the risk you *must* take to earn that reward.
+
+- That is the problem with these alternative measures.  They consider reward (profit and cash flows) without considering the risk it takes to maximize them.
+
+- Thus, setting these as goals of management, may lead management to take excessive risks (because risk isn't even considered).
+	</textarea>
+</section>
+
+<!--- emphasize the importance of balance in finance, balancing risk and reward.  Maximizing shareholder wealth is a balanced approach, whereas maximizing cash flows or profits is not. -->
+<section data-markdown>
+	<textarea data-template>
+## Excessive Risk
+
+As an example, let's say the goal was to maximize cash flow.  Now, assume the following scenario:  
+
+-  Your company has \$100,000 to invest in houses.  There are 100 houses, each house costs \$100,000, and their prices will increase by 1\% over the next year. 
+
+-  You are able to borrow up to a maximum of 100-to-1 leverage.  
+
+-  You will sell all investments at the end of the year.
+
+-  Assume interest rates and taxes are 0\% (this is only saves us from immaterial calculations).
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+## Expected Cash Flow
+
+Consider the two possible investments:
+
+#. You can invest \$100,000 in one house.  In this case you expect to earn \$1,000 cash flow (or profit) over the year.
+
+#. You can invest \$1,000 each in 100 houses.  Now you expect \$100,000 in cash flow.  
+
+In fact, you can see `maximizing cash flow` or `profit` will simply instruct management to borrow as much as possible and use it all to buy houses---that is, this goal will incentivize management *to take on as much risk as possible* without considering the consequences.
+	</textarea>
+</section>
+
+
+<section data-markdown>
+	<textarea data-template>
+## A Stock's Value
+
+The value of a stock (or any asset) is *the sum of all the stock's discounted expected future cash flows (dividends), where the discount rate reflects the risk taken to earn those cash flows*.  So, for example, say a company expects to pay \$10 in dividends per share every year forever.  Then the value of the firm's stock is:
+
+$Value = \$10 + \frac{\$10}{1+k} + \frac{\$10}{(1+k)^2} + \frac{\$10}{(1+k)^3} + \ldots$
+
+where *k* is the firm's cost of equity capital (which increases with the risk the firm takes).  If we assume $k = 8\%$, then the value of the firm's stock is \$125.
+
+* See this presentation on [stock valuation](http://www.5minutefinance.org/concepts/an-introduction-to-stock-valuation) for a more detailed treatment.
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+## Limiting Risk 
+
+So how does this limit risk? A firm may increase risk to increase the value of the stock.  Say the firm can pay \$12 in dividends annually, but it will increase their cost of equity capital to 9\%.  Then the value of the stock is \$133.33, and management of the firm should take the additional risk.
+
+-  However, what if to increase dividends to \$14, the firm's cost of equity becomes 11\%.  Then the firm's value is \$127.27.  The firm thus should not take on the additional risk. Generally, at a certain point, the increase in the cost of equity will always more than offset the increase in increased dividends. 
+
+-  In this way, the goal of financial management naturally limits risk.
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+## Interactive App
+
+The following interactive application gives you a general idea of how a stock's price reacts to increasing risk. 
+
+-  As you increase risk, both expected cash flows and the required return on equity increase. As long as the effect of increasing expected cash flows dominates, the stock price also increases.
+
+-  However, as risk rises, at some point the effect of the increased required return begins to dominate outcomes, and increasing risk will decrease the stock price.
+
+-  Below is a general example.  The exact point where the effect on the required return dominates would vary from firm to firm.
+	</textarea>
+</section>
+
+
+<!--- Convert the following app to javascript
+##
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+inputPanel(
+ sliderInput("risk", "Risk (Leverage)", min = 0, max = 100, step = 1, value = 10)
+)
+
+renderPlot({
+
+  ## make rate cubic in risk
+  rate <- (input$risk / 100)^3 + .02
+  ## casf flows increase linearly
+  CFs <- 10 *  (input$risk / 100 + 1) - 10
+  Value <- CFs / rate
+
+  plot(0, ylim = c(0, 1), xlim = c(0, 1), type = "n",
+       xaxt = "n", yaxt = "n", ylab = "", xlab = "")
+
+  text(x = 0.5, y = 0.75,
+       labels = paste0("Stock price = ", round( Value, 2)), cex = 3)
+  
+  text(x = .5, y = .5, paste0("Cash Flows = ",
+                       round( CFs, 2 ), ";   Req. Return = ", 100 * round( rate, 2 ), "%"),
+       cex = 1)
+
+})
+```
+-->
+
+<section>
+
+
+
+  
+</section>
+
+
+<section data-markdown>
+	<textarea data-template>
+## The Goal in Other Countries
+
+This presentation has covered the goal of financial management *for U.S. firms*.  The goal of financial management may differ for firms based in other countries.
+
+-  For example in other countries, such as Germany, it is a common requirement to have labor representatives on the Board of Directors of certain firms to advocate for the well-being of workers.  
+
+-  In this case `maximizing shareholder wealth` is not the sole goal of the financial manager.
+	</textarea>
+</section>
+
+
+
+
+<!-- Insert App -->
+<!-- <section data-background-image="./code_image.jpg"> -->
+<!--   <div class="stretch"> -->
+<!--     <iframe src="https://micfm.shinyapps.io/limit_order_book_app1/" height="100%" width="100%"></iframe> -->
+<!--   </div> -->
+<!-- </section> -->
+<!-- </section> -->
+
+
+<section>
+<h3>Credits and Collaboration</h3>
+
+<p align="left">Click the following links to see the <a href="">code</a>, <a href="">authors of this presentation</a>.</p>
+
+<p align="left">If you would like to make any additions or corrections to this presentation, visit our <a href="https://github.com/FinancialMarkets/5MinuteFinance#how-to-contribute">GitHub repository page</a> to learn more about how to contribute.</p>
+
+</section>
+
+</div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+  // More info about config & dependencies:
+  // - https://github.com/hakimel/reveal.js#configuration
+  // - https://github.com/hakimel/reveal.js#dependencies
+  Reveal.initialize({
+
+  transition: 'convex',
+  
+  <!-- menu: { -->
+  <!-- 	// Specifies which side of the presentation the menu will  -->
+  <!-- 	// be shown. Use 'left' or 'right'. -->
+  <!-- 	side: 'left', -->
+
+  <!-- 	// Add slide numbers to the titles in the slide list. -->
+  <!-- 	// Use 'true' or format string (same as reveal.js slide numbers) -->
+  <!-- 	numbers: false, -->
+
+  <!-- 	// Specifies which slide elements will be used for generating -->
+  <!-- 	// the slide titles in the menu. The default selects the first -->
+  <!-- 	// heading element found in the slide, but you can specify any -->
+  <!-- 	// valid css selector and the text from the first matching -->
+  <!-- 	// element will be used. -->
+  <!-- 	// Note: that a section data-menu-title attribute or an element -->
+  <!-- 	// with a menu-title class will take precedence over this option -->
+  <!-- 	titleSelector: 'h1, h2, h3, h4, h5, h6', -->
+
+  <!-- 	// If slides do not have a matching title, attempt to use the -->
+  <!-- 	// start of the text content as the title instead -->
+  <!-- 	useTextContentForMissingTitles: false, -->
+
+  <!-- 	// Hide slides from the menu that do not have a title. -->
+  <!-- 	// Set to 'true' to only list slides with titles. -->
+  <!-- 	hideMissingTitles: false, -->
+
+  <!-- 	// Add markers to the slide titles to indicate the  -->
+  <!-- 	// progress through the presentation -->
+  <!-- 	markers: false, -->
+
+  <!-- 	// Specify custom panels to be included in the menu, by -->
+  <!-- 	// providing an array of objects with 'title', 'icon' -->
+  <!-- 	// properties, and either a 'src' or 'content' property. -->
+  <!-- 	custom: false, -->
+
+  <!-- 	// Specifies the themes that will be available in the themes -->
+  <!-- 	// menu panel. Set to 'false' to hide themes panel. -->
+  <!-- 	themes: [ -->
+  <!-- 		{ name: 'Black', theme: 'css/theme/black.css' }, -->
+  <!-- 		{ name: 'White', theme: 'css/theme/white.css' }, -->
+  <!-- 		{ name: 'League', theme: 'css/theme/league.css' }, -->
+  <!-- 		{ name: 'Sky', theme: 'css/theme/sky.css' }, -->
+  <!-- 		{ name: 'Beige', theme: 'css/theme/beige.css' }, -->
+  <!-- 		{ name: 'Simple', theme: 'css/theme/simple.css' }, -->
+  <!-- 		{ name: 'Serif', theme: 'css/theme/serif.css' }, -->
+  <!-- 		{ name: 'Blood', theme: 'css/theme/blood.css' }, -->
+  <!-- 		{ name: 'Night', theme: 'css/theme/night.css' }, -->
+  <!-- 		{ name: 'Moon', theme: 'css/theme/moon.css' }, -->
+  <!-- 		{ name: 'Solarized', theme: 'css/theme/solarized.css' } -->
+  <!-- 	], -->
+
+  <!-- 	// Specifies if the transitions menu panel will be shown. -->
+  <!-- 	transitions: true, -->
+
+  <!-- 	// Adds a menu button to the slides to open the menu panel. -->
+  <!-- 	// Set to 'false' to hide the button. -->
+  <!-- 	openButton: true, -->
+
+  <!-- 	// If 'true' allows the slide number in the presentation to -->
+  <!-- 	// open the menu panel. The reveal.js slideNumber option must  -->
+  <!-- 	// be displayed for this to take effect -->
+  <!-- 	openSlideNumber: false, -->
+
+  <!-- 	// If true allows the user to open and navigate the menu using -->
+  <!-- 	// the keyboard. Standard keyboard interaction with reveal -->
+  <!-- 	// will be disabled while the menu is open. -->
+  <!-- 	keyboard: true, -->
+
+  <!-- 	// Normally the menu will close on user actions such as -->
+  <!-- 	// selecting a menu item, or clicking the presentation area. -->
+  <!-- 	// If 'true', the sticky option will leave the menu open -->
+  <!-- 	// until it is explicitly closed, that is, using the close -->
+  <!-- 	// button or pressing the ESC or m key (when the keyboard  -->
+  <!-- 	// interaction option is enabled). -->
+  <!-- 	sticky: false, -->
+
+  <!-- 	// If 'true' standard menu items will be automatically opened -->
+  <!-- 	// when navigating using the keyboard. Note: this only takes  -->
+  <!-- 	// effect when both the 'keyboard' and 'sticky' options are enabled. -->
+  <!-- 	autoOpen: true, -->
+
+  <!-- 	// If 'true' the menu will not be created until it is explicitly -->
+  <!-- 	// requested by calling RevealMenu.init(). Note this will delay -->
+  <!-- 	// the creation of all menu panels, including custom panels, and -->
+  <!-- 	// the menu button. -->
+  <!-- 	delayInit: false, -->
+
+  <!-- 	// By default the menu will load it's own font-awesome library -->
+  <!-- 	// icons. If your presentation needs to load a different -->
+  <!-- 	// font-awesome library the 'loadIcons' option can be set to false -->
+  <!-- 	// and the menu will not attempt to load the font-awesome library. -->
+  <!-- 	loadIcons: true -->
+  <!-- }, -->
+
+  <!-- uncomment the below section, and the two lines in the dependencies below, to turn on audio -->
+  <!-- audio: { -->
+  <!-- prefix: 'audio/', 	// audio files are stored in the "audio" folder -->
+  <!-- suffix: '.wav',		// audio files have the ".ogg" ending --- changed to wav -->
+  <!-- textToSpeechURL: null,  // the URL to the text to speech converter -->
+  <!-- defaultNotes: false, 	// use slide notes as default for the text to speech converter -->
+  <!-- defaultText: false, 	// use slide text as default for the text to speech converter -->
+  <!-- advance: 0, 		// advance to next slide after given time in milliseconds after audio has played, use negative value to not advance  -->
+  <!-- autoplay: false,	// automatically start slideshow -->
+  <!-- defaultDuration: 5,	// default duration in seconds if no audio is available  -->
+  <!-- playerOpacity: 0.05,	// opacity value of audio player if unfocused -->
+  <!-- playerStyle: 'position: fixed; bottom: 4px; left: 25%; width: 50%; height:75px; z-index: 33;', // style used for container of audio controls  -->
+  <!-- startAtFragment: false, // when moving to a slide, start at the current fragment or at the start of the slide -->
+  <!-- }, -->
+<!-- end audio section -->
+
+  
+  chalkboard: { 
+  src: null,
+  readOnly: undefined, 
+  toggleChalkboardButton: { left: "90px", bottom: "30px", top: "auto", right: "auto" },
+  toggleNotesButton: { left: "150px", bottom: "30px", top: "auto", right: "auto" },
+  },
+    math: {
+		mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+		config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
+	},
+  dependencies: [
+  { src: 'plugin/math/math.js', async: true },
+  <!--   { src: 'plugin/audio-slideshow/slideshow-recorder.js', condition: function( ) { return !!document.body.classList; } },				 -->
+  <!-- { src: 'plugin/audio-slideshow/audio-slideshow.js', condition: function( ) { return !!document.body.classList; } }, -->
+  { src: 'plugin/markdown/marked.js' },
+  { src: 'plugin/markdown/markdown.js' },
+  { src: 'plugin/menu/menu.js' },
+  { src: 'plugin/notes/notes.js', async: true },
+  <!-- { src: 'node_modules/reveal.js-menu/menu.js' }, -->
+  { src: 'plugin/chalkboard/chalkboard.js' },
+  { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+  ],
+  keyboard: {
+  67: function() { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
+  66: function() { RevealChalkboard.toggleChalkboard() },	// toggle chalkboard when 'b' is pressed
+  46: function() { RevealChalkboard.clear() },	// clear chalkboard when 'DEL' is pressed
+  8: function() { RevealChalkboard.reset() },	// reset chalkboard data on current slide when 'BACKSPACE' is pressed
+  68: function() { RevealChalkboard.download() },	// downlad recorded chalkboard drawing when 'd' is pressed
+  82: function() { Recorder.toggleRecording(); },	// press 'r' to start/stop recording
+  90: function() { Recorder.downloadZip(); }, 	// press 'z' to download zip containing audio files
+  84: function() { Recorder.fetchTTS(); }, 	// press 't' to fetch TTS audio files
+  },
+  });
+</script>
+</body>
+</html>
