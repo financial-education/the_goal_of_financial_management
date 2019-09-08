@@ -90,7 +90,7 @@
 	<textarea data-template>
 ## The Goal of Financial Management
 
-`The goal of financial management is to maximize shareholder wealth.` For public companies this is the stock price, and for private companies this is the market value of the owners' equity. 
+<p align="left">`The goal of financial management is to maximize shareholder wealth.` For public companies this is the stock price, and for private companies this is the market value of the owners' equity.</p> 
 
 -  We'll discuss the drawbacks of other potential measures.
 
@@ -102,7 +102,7 @@
 	<textarea data-template>
 ## Alternative Measures
 
-Some might offer goals such as `maximize cash flows` or `maximize profit` for financial management. What problems arise from these goals? 
+<p align="left">Some might offer goals such as `maximize cash flows` or `maximize profit` for financial management. What problems arise from these goals?</p> 
 
 -  Relatively minor problems relate to how to measure the cash flows---should they be the average cash flow over some period (and what period)?
 
@@ -116,7 +116,7 @@ Some might offer goals such as `maximize cash flows` or `maximize profit` for fi
 	<textarea data-template>
 ## The Larger Problem
 
-The larger problem with measures such as `maximizing profit` or `cash flows` is that the they lack *balance*. In finance and investments, risk is balanced with reward.  You can't have one without the other. And so you can't consider the reward without also considering the risk you *must* take to earn that reward.
+<p align="left">The larger problem with measures such as `maximizing profit` or `cash flows` is that the they lack *balance*. In finance and investments, risk is balanced with reward.  You can't have one without the other. And so you can't consider the reward without also considering the risk you *must* take to earn that reward.</p>
 
 - That is the problem with these alternative measures.  They consider reward (profit and cash flows) without considering the risk it takes to maximize them.
 
@@ -129,7 +129,7 @@ The larger problem with measures such as `maximizing profit` or `cash flows` is 
 	<textarea data-template>
 ## Excessive Risk
 
-As an example, let's say the goal was to maximize cash flow.  Now, assume the following scenario:  
+<p align="left">As an example, let's say the goal was to maximize cash flow.  Now, assume the following scenario:</p> 
 
 -  Your company has \$100,000 to invest in houses.  There are 100 houses, each house costs \$100,000, and their prices will increase by 1\% over the next year. 
 
@@ -145,13 +145,13 @@ As an example, let's say the goal was to maximize cash flow.  Now, assume the fo
 	<textarea data-template>
 ## Expected Cash Flow
 
-Consider the two possible investments:
+<p align="left">Consider the two possible investments:</p>
 
 #. You can invest \$100,000 in one house.  In this case you expect to earn \$1,000 cash flow (or profit) over the year.
 
 #. You can invest \$1,000 each in 100 houses.  Now you expect \$100,000 in cash flow.  
 
-In fact, you can see `maximizing cash flow` or `profit` will simply instruct management to borrow as much as possible and use it all to buy houses---that is, this goal will incentivize management *to take on as much risk as possible* without considering the consequences.
+<p align="left">In fact, you can see `maximizing cash flow` or `profit` will simply instruct management to borrow as much as possible and use it all to buy houses---that is, this goal will incentivize management *to take on as much risk as possible* without considering the consequences.</p>
 	</textarea>
 </section>
 
@@ -160,13 +160,13 @@ In fact, you can see `maximizing cash flow` or `profit` will simply instruct man
 	<textarea data-template>
 ## A Stock's Value
 
-The value of a stock (or any asset) is *the sum of all the stock's discounted expected future cash flows (dividends), where the discount rate reflects the risk taken to earn those cash flows*.  So, for example, say a company expects to pay \$10 in dividends per share every year forever.  Then the value of the firm's stock is:
+<p align="left">The value of a stock (or any asset) is *the sum of all the stock's discounted expected future cash flows (dividends), where the discount rate reflects the risk taken to earn those cash flows*.  So, for example, say a company expects to pay \$10 in dividends per share every year forever.  Then the value of the firm's stock is:</p>
 
 $Value = \$10 + \frac{\$10}{1+k} + \frac{\$10}{(1+k)^2} + \frac{\$10}{(1+k)^3} + \ldots$
 
-where *k* is the firm's cost of equity capital (which increases with the risk the firm takes).  If we assume $k = 8\%$, then the value of the firm's stock is \$125.
+<p align="left">where *k* is the firm's cost of equity capital (which increases with the risk the firm takes).  If we assume $k = 8\%$, then the value of the firm's stock is \$125.</p>
 
-* See this presentation on [stock valuation](http://www.5minutefinance.org/concepts/an-introduction-to-stock-valuation) for a more detailed treatment.
+<p align="left">* See this presentation on [stock valuation](http://www.5minutefinance.org/concepts/an-introduction-to-stock-valuation) for a more detailed treatment.</p>
 	</textarea>
 </section>
 
@@ -174,7 +174,7 @@ where *k* is the firm's cost of equity capital (which increases with the risk th
 	<textarea data-template>
 ## Limiting Risk 
 
-So how does this limit risk? A firm may increase risk to increase the value of the stock.  Say the firm can pay \$12 in dividends annually, but it will increase their cost of equity capital to 9\%.  Then the value of the stock is \$133.33, and management of the firm should take the additional risk.
+<p align="left">So how does this limit risk? A firm may increase risk to increase the value of the stock.  Say the firm can pay \$12 in dividends annually, but it will increase their cost of equity capital to 9\%.  Then the value of the stock is \$133.33, and management of the firm should take the additional risk.</p>
 
 -  However, what if to increase dividends to \$14, the firm's cost of equity becomes 11\%.  Then the firm's value is \$127.27.  The firm thus should not take on the additional risk. Generally, at a certain point, the increase in the cost of equity will always more than offset the increase in increased dividends. 
 
@@ -186,7 +186,7 @@ So how does this limit risk? A firm may increase risk to increase the value of t
 	<textarea data-template>
 ## Interactive App
 
-The following interactive application gives you a general idea of how a stock's price reacts to increasing risk. 
+<p align="left">The following interactive application gives you a general idea of how a stock's price reacts to increasing risk.</p>
 
 -  As you increase risk, both expected cash flows and the required return on equity increase. As long as the effect of increasing expected cash flows dominates, the stock price also increases.
 
@@ -229,10 +229,11 @@ renderPlot({
 
 <section>
 
-  <p align="center">Financial Leverage (from 0% to 100%):</p>
+  <p align="center">Risk Taken (scale from 0 to 100):</p>
 <div class="slidecontainer">
   <input type="range" min="0" max="100" value="50" class="slider" id="myRange">
 </div>
+  <p align="center">Risk: <span id="demo"></span></p>
 <button onclick="myJsFunction()">Calculate</button>
 
     <script src="src/app1.js"></script>
